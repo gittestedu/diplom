@@ -17,10 +17,10 @@ spec:
     required:
       nodeSelectorTerms:
       - matchExpressions:
-        - key: alpha.eksctl.io/cluster-name
+        - key: alpha.eksctl.io/nodegroup-name
           operator: In
           values:
-          - vsh-kub23
+          - vsh-ng-1
 
 ---
 
